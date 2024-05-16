@@ -1,0 +1,62 @@
+{
+    "schools": [
+        {
+            "id": 1,
+            "name": "Elimu Primary School",
+            "type": "Primary",
+            "product": "Zeraki Analytics",
+            "county": "Nairobi",
+            "registrationDate": "2020-05-14",
+            "contact": {
+                "email": "elimuschool@gmail.com",
+                "phone": "0712345678"
+            },
+            "balance": 5000
+        },
+        {
+            "id": 2,
+            "name": "Hekima Secondary School",
+            "type": "Secondary",
+            "product": "Zeraki Finance",
+            "county": "Mombasa",
+            "registrationDate": "2019-04-15",
+            "contact": {
+                "email": "hekimahigh@gmail.com",
+                "phone": "0798765432"
+            },
+            "balance": 7500
+        }
+    ],
+    "invoices": [
+        {
+            "id": 1,
+            "schoolId": 1,
+            "invoiceNumber": "INV-001",
+            "invoiceDate": "2024-05-10",
+            "dueDate": "2024-06-10",
+            "amountDue": 2000,
+            "amountPaid": 0,
+            "status": "Pending"
+        },
+        {
+            "id": 2,
+            "schoolId": 2,
+            "invoiceNumber": "INV-002",
+            "invoiceDate": "2024-05-12",
+            "dueDate": "2024-06-12",
+            "amountDue": 1500,
+            "amountPaid": 0,
+            "status": "Pending"
+        }
+    ],
+    "collections": [
+        {
+            "id": 1,
+            "schoolId": 1,
+            "collectionNumber": "COLL-001",
+            "collectionDate": "2024-05-10",
+            "amount": 2000,
+            "status": "Valid"
+        }
+    ]
+}
